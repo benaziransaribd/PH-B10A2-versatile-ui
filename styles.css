@@ -1,12 +1,7 @@
 
     /* Font Family */
-.inter-font{
+body{
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
     }
 
 *{background-color: rgb(0, 0, 0);}
@@ -75,7 +70,6 @@
         width: 1060px;
         height: 715px;
         margin: 30px auto;
-        background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     }
 .section-1-div-1{
         width: 520px;
@@ -185,14 +179,11 @@
       /* Nav & Section-1 Media Responsive */
 
     @media screen and (max-width: 576px){
-        .header {
-            width: 353px;
-            height: 43px;
-            margin: 52px 20px;
+        #header {
+            width: 576px;
+            margin-left: -220px;
         }
-    }
 
-    @media screen and (max-width: 576px){
         .nav-ul{
             flex-direction: column;
             margin-top: 40px;
@@ -203,17 +194,28 @@
         }
     }
 
+
+
     @media screen and (max-width: 576px){
         #section-1 {
+            width: 100%;
             flex-direction: column;
             align-items: center;
-            width: 352px;
-            height: 930px;
-            padding-top: 5px;
-            margin-left: 140px;
+            margin-bottom: 500px;
         }
     }
 
+
+    @media screen and (max-width: 576px){
+        .section-1-div-1 {
+            width: 100%;
+            margin: 0 0 15px;
+        }
+
+        .section-1-div-2 {
+            width: 100%;
+        }
+    }
              /*Section-2*/
 
 
@@ -268,6 +270,28 @@
         font-weight: 400;
         color: rgba(255, 255, 255, 0.5);
         margin-top: -10px;
+    }
+
+    /* Section-2 Media Responsive */
+
+    @media screen and (max-width: 576px){
+        .section-2-div-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            margin-top: 200px;
+        }
+
+        .section-2-div-2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            margin-top: 50px;
+        }
     }
 
         /*Section-3*/
@@ -347,6 +371,17 @@
         border-radius: 5%;
     }
 
+    /* Section-3 Media Responsive */
+
+    @media screen and (max-width: 576px){
+        #section-3 {
+            width: 100%;
+            flex-direction: column;
+            margin-bottom: 200px;
+        }
+    }
+
+
          /* Section-4 */
 
     
@@ -402,6 +437,132 @@
         font-weight: 400;
         color: rgba(255, 255, 255, 0.5);
     }
+
+    /* Section-4 Media Responsive */
+
+    @media screen and (max-width: 576px){
+        .sec-4-div-2{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    /* Section-5 */
+
+    #sec-5{
+        width: 1440px;
+        height: 487px;
+        color: aliceblue;
+        background: rgba(255, 255, 255, 0.1);
+        margin: auto;
+        margin-bottom: 200px;
+        margin-top: -150px;
+    }
+
+    .bmical{
+        display: flex;
+        justify-content: space-between;
+        background: none;
+    }
+
+    .caltbl{
+        margin-left: 190px;
+        background: none;
+
+    }
+    .bmi-h3{
+        font-size: 28px;
+        font-weight: 900;
+        background: none;
+    }
+
+    .table{
+        width: 300px;
+        height: 216px;
+    }
+
+    .td{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 15px;
+        color: rgba(255, 255, 255, 0.5);
+        background: none;
+    }
+
+    .caloption{
+        width: 577px;
+        height: 386px;
+        margin-right: 100px;
+        background: none;
+
+    }
+
+    .option-h3{
+        font-size: 28px;
+        font-weight: 900;
+        background: none;
+    }
+
+    .option-p{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        background: none;
+    }
+
+    .form{
+
+        background: none;
+
+    }
+    .caldiv{
+        background: none;
+    }
+
+    .input{
+        padding: 12px 40px 12px 20px;
+        gap: 10;
+        border-radius: 8px;
+        margin-top: 5px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .input-x{
+        padding: 12px 278px 12px 20px;
+        gap: 10;
+        margin-top: 5px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+
+    .calbtn{
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        color: aliceblue;
+    }
+
+    /* Section-5 Media Responsive */
+
+    @media screen and (max-width: 576px){
+        #sec-5{
+            margin-bottom: 800PX;
+        }
+    
+        .bmical{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background: none;
+        }
+    }
+
+
     /* Section-6 */
 
     .sec-6{
@@ -463,6 +624,28 @@
         margin-top: 15px;
     }
 
+
+     /* Section-6 Media Responsive */
+     @media screen and (max-width: 576px){
+
+        .SEC-6{
+            
+        }
+        .sec-6-div-1{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10;
+        }
+        
+        .sec-6-div-2{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10;
+        }
+    }
+
     /* footer */
 
     #footer{
@@ -521,7 +704,8 @@
         background: none;
     }
 
-    .footdiv-2-sub{
+    .footerdiv-2-sub{
+        background: none;
         
     }
 
@@ -543,6 +727,7 @@
         color: rgba(255, 255, 255, 0.5);
         background: none;
     }
+
     hr{
         color: gray;
         width:1059px;
@@ -562,4 +747,28 @@
         margin-left: auto;
         margin-right: auto;
         background: none;
+    }
+
+    /* Footer Responsive */
+
+    @media screen and (max-width: 576px){
+
+        .footermaindiv{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10;
+            margin-top: 800px;
+        }
+
+        .footerdiv-2{
+            display: flex;
+            flex-direction: column;
+        }
+        hr{
+            margin-top: 450px;
+        }
+        .footer-p{
+            margin-bottom: 200px;
+        }
     }
